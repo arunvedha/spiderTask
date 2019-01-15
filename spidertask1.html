@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html onload="load()>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body ">
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">PokeDex</h1>
+          <form id="submit">
+	    	<input type="text" placeholder="Search a pokemon..." />
+	    	<button>Search</button>
+	    </form>
+	    	</div>
+	    </header>
+</div>
+<!-- 	    <table id = "table" border="1">
+ <tr><td>abilities :</td><td id="abilities"></td></tr>
+ <tr><td>items Held :</td><td id="items"></td></tr>
+ <tr><td>moves :</td><td id="moves"></td></tr>
+ <tr><td>height :</td><td id="height"></td></tr>
+ 
+       </table> -->
+       <table id="table">
+  <tr>
+    <th>Features</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Abilities</td>
+    <td id = "abilities"></td>
+  </tr>
+  <tr>
+    <td>Items Held</td>
+    <td id="items"></td>
+  </tr>
+  <tr>
+    <td>Moves</td>
+    <td id="moves"></td>
+  </tr>
+  <tr>
+    <td>Height</td>
+    <td id="height"></td>
+  </tr>
+
+</table>
+	<div id="history">
+	    	<h2 class="title">Recent Searches</h2>
+	</div>    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="poke.js"></script>
+  </body>
+</html>
